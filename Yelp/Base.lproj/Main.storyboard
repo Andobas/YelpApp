@@ -54,8 +54,8 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="88 Division St, Mission Bay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNW-gX-dki">
-                                                    <rect key="frame" x="81" y="49" width="164" height="16"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88 Division St, Mission Bay" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNW-gX-dki">
+                                                    <rect key="frame" x="81" y="50" width="231" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -73,7 +73,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="0.07 mi" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CrG-Dt-nyj">
-                                                    <rect key="frame" x="267.5" y="10" width="44.5" height="16"/>
+                                                    <rect key="frame" x="267" y="10" width="44.5" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.51620592948717947" green="0.51620592948717947" blue="0.51620592948717947" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -85,6 +85,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="ami-ng-LDO" secondAttribute="trailing" constant="8" id="Hbw-J3-1G4"/>
                                                 <constraint firstItem="pk6-rz-Hfi" firstAttribute="leading" secondItem="gNW-gX-dki" secondAttribute="leading" id="J4N-Fd-aNw"/>
                                                 <constraint firstAttribute="trailing" secondItem="CrG-Dt-nyj" secondAttribute="trailing" constant="8" id="O6n-uT-6hx"/>
+                                                <constraint firstAttribute="trailing" secondItem="gNW-gX-dki" secondAttribute="trailing" constant="8" id="RUU-tI-Jgp"/>
                                                 <constraint firstItem="CrG-Dt-nyj" firstAttribute="leading" secondItem="LME-a9-4r2" secondAttribute="trailing" constant="8" id="Rct-tY-n5c"/>
                                                 <constraint firstItem="LME-a9-4r2" firstAttribute="leading" secondItem="FeV-dP-Bou" secondAttribute="trailing" constant="8" id="Ujm-vf-KUa"/>
                                                 <constraint firstItem="yBy-fM-g76" firstAttribute="leading" secondItem="tqM-FJ-Ilw" secondAttribute="trailing" constant="5" id="V2k-0Q-THL"/>
